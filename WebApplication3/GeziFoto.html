@@ -23,23 +23,61 @@
     </script>
 
     <style>
+
+        body {
+            background-color: #d9d9d9;
+        }
+
         img {
-            width: 250px;
-            height: 250px;
+            width: 350px;
+            height: 300px;
             margin-bottom: 35px;
             margin-top: 20px;
         }
+
+
+
+        ul.breadcrumb {
+            padding: 10px 16px;
+            list-style: none;
+            background-color: transparent;
+        }
+
+
+            ul.breadcrumb li {
+                display: inline;
+                font-size: 15px;
+            }
+
+
+                ul.breadcrumb li + li:before {
+                    padding: 8px;
+                    color: black;
+                    content: ">\00a0";
+                }
+
+
+
+                ul.breadcrumb li a {
+                    color: #404040;
+                    text-decoration: none;
+                }
+
+                    ul.breadcrumb li a:hover {
+                        color: #01447e;
+                        text-decoration: underline;
+                    }
     </style>
 
 </head>
 <body>
 
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-expand-sm">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="AnaSayfa.html">Foto Blogum</a>
             </div>
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav ml-auto">
                 <li><a href="AnaSayfa.html">Ana Sayfa</a></li>
                 <li><a href="GeziFoto.html">Gezi Fotoğraflarım</a></li>
                 <li><a href="TatilFoto.html">Tatil Fotoğraflarım</a></li>
@@ -49,19 +87,21 @@
         </div>
     </nav>
 
-    <a href="AnaSayfa.html">Ana Sayfa</a> > <a href="GeziFoto.html">Gezi Fotoğrafları</a> 
+
+    <ul class="breadcrumb">
+        <li><a href="AnaSayfa.html">Ana Sayfa</a></li>
+        <li><a href="GeziFoto.html">Gezi Fotoğrafları</a></li>
+    </ul>
 
 
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div>
-                    <a href="images/gezi/acarlar.jpg" class="swipebox">
-                        <img src="images/gezi/acarlarKucuk.png" alt="image">
-                    </a>
-                </div>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <a href="images/gezi/acarlar.jpg" class="swipebox">
+                    <img src="images/gezi/acarlarKucuk.png" alt="image">
+                </a>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <div>
                     <a href="images/gezi/camdagi.jpeg" class="swipebox">
                         <img src="images/gezi/camdagiKucuk.png" alt="image">
@@ -69,39 +109,32 @@
 
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div>
-                    <a href="images/gezi/geyve.jpg" class="swipebox">
-                        <img src="images/gezi/geyveKucuk.png" alt="image">
-                    </a>
+            <div class="col-md-4">
 
-                </div>
+                <a href="images/gezi/geyve.jpg" class="swipebox">
+                    <img src="images/gezi/geyveKucuk.png" alt="image">
+                </a>
+
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-lg-4">
-                <div>
-                    <a href="images/gezi/karagol.jpg" class="swipebox">
-                        <img src="images/gezi/karagolKucuk.png" alt="image">
-                    </a>
+                <a href="images/gezi/karagol.jpg" class="swipebox">
+                    <img src="images/gezi/karagolKucuk.png" alt="image">
+                </a>
 
-                </div>
             </div>
             <div class="col-lg-4">
-                <div>
-                    <a href="images/gezi/karasuKucuk.png" class="swipebox">
-                        <img src="images/gezi/karasu.jpg" alt="image">
-                    </a>
-                </div>
+                <a href="images/gezi/karasuKucuk.png" class="swipebox">
+                    <img src="images/gezi/karasu.jpg" alt="image">
+                </a>
             </div>
             <div class="col-lg-4">
-                <div>
-                    <a href="images/gezi/sapanca-golu.jpg" class="swipebox">
-                        <img src="images/gezi/sapancaKucuk.png" alt="image">
-                    </a>
+                <a href="images/gezi/sapanca-golu.jpg" class="swipebox">
+                    <img src="images/gezi/sapancaKucuk.png" alt="image">
+                </a>
 
-                </div>
             </div>
         </div>
     </div>
