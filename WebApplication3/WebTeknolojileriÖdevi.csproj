@@ -67,7 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AnaSayfa.html" />
+    <Content Include="index.html" />
     <Content Include="GeceFoto.html" />
     <Content Include="GeziFoto.html" />
     <Content Include="Iletisim.html" />
