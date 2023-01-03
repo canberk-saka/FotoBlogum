@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Tatil Fotoğraflarım</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <script src="lib/jquery-3.5.2.js"></script>
+    <script src="src/js/jquery.swipebox.js"></script>
+
+    <link rel="stylesheet" href="src/css/swipebox.css">
+
+    <script type="text/javascript">
+        ; (function ($) {
+
+            $('.swipebox').swipebox();
+
+        })(jQuery);
+    </script>
+
+    <style>
+
+        body {
+            background-color: #d9d9d9;
+        }
+
+        img {
+            width: 350px;
+            height: 300px;
+            margin-bottom: 35px;
+            margin-top:20px;
+        }
+
+        ul.breadcrumb {
+            padding: 10px 16px;
+            list-style: none;
+            background-color: transparent;
+        }
+
+
+            ul.breadcrumb li {
+                display: inline;
+                font-size: 15px;
+            }
+
+
+                ul.breadcrumb li + li:before {
+                    padding: 8px;
+                    color: black;
+                    content: ">\00a0";
+                }
+
+
+                ul.breadcrumb li a {
+                    color: #404040;
+                    text-decoration: none;
+                }
+
+                ul.breadcrumb li a:hover {
+                     color: #01447e;
+                     text-decoration: underline;
+                }
+
+    </style>
+</head>
+<body>
+
+
+
+    <nav class="navbar navbar-inverse navbar-expand-sm">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Foto Blogum</a>
+            </div>
+            <ul class="nav navbar-nav ml-auto">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="GeziFoto.html">Gezi Fotoğraflarım</a></li>
+                <li><a href="TatilFoto.html">Tatil Fotoğraflarım</a></li>
+                <li><a href="GeceFoto.html">Gece Fotoğraflarım</a></li>
+                <li><a href="Iletisim.html">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="TatilFoto.html">Tatil Fotoğrafları</a></li>
+    </ul>
+
+
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <a href="images/tatil/akcakoca.jpg" class="swipebox">
+                    <img src="images/tatil/akcakocaKucuk.png" alt="image">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <a href="images/tatil/deniz.jpeg" class="swipebox">
+                        <img src="images/tatil/denizKucuk.png" alt="image">
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <a href="images/tatil/karasuotel.jpeg" class="swipebox">
+                        <img src="images/tatil/karasuotelKucuk.png" alt="image">
+                    </a>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <a href="images/tatil/kızkulesi.jpg" class="swipebox">
+                    <img src="images/tatil/kızkulesiKucuk.png" alt="image">
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="images/tatil/otel.jpeg" class="swipebox">
+                    <img src="images/tatil/otelKucuk.png" alt="image">
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="images/tatil/sezlong.jpg" class="swipebox">
+                    <img src="images/tatil/sezlongKucuk.png" alt="image">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

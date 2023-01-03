@@ -57,3 +57,5 @@ C:\Users\CanberkSAKA\source\repos\WebApplication3\WebApplication3\obj\Debug\WebT
 C:\Users\CanberkSAKA\source\repos\WebApplication3\WebApplication3\obj\Debug\WebTeknolojileriÖdevi.csproj.CopyComplete
 C:\Users\CanberkSAKA\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
 C:\Users\CanberkSAKA\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+C:\Users\CanberkSAKA\source\repos\WebApplication3\obj\Debug\WebApplication3.dll
+C:\Users\CanberkSAKA\source\repos\WebApplication3\obj\Debug\WebApplication3.pdb
